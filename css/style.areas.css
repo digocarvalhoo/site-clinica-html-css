@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&family=Open+Sans&display=swap');
+
+body{
+    background-color: rgb(205, 243, 207);
+    padding: 180px;
+    display: flex;
+}
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    font-family:'Open Sans'; /*Fonte do título*/
+    line-height: 1.6; /* Ajusta o espaçamento entre as linhas */
+    font-size: 20px;
+    padding-left: 50px;
+}
+.wrapper{
+    background-color: rgb(205, 243, 207);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+}
+a{  /*Botão de retorno*/
+    background-color:rgb(183, 233, 185);
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute; /* Posiciona o link de forma absoluta */
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+a:hover{
+    font-size: 23px;
+}
+li{
+    font-size: 20px;
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+table{
+    border: solid 1px black;
+    width: 70%;
+    border-collapse: collapse; /* Junta as bordas para não ficarem duplicadas */
+    margin: auto; /* Centraliza a tabela */
+    text-align: center; /* Centraliza o texto */
+}
+th{
+    padding: 20px;
+    background-color: rgb(179, 218, 181);
+}
+td{
+    background-color:  rgb(179, 218, 181);
+    border: solid 1px;
+    padding: 10px;
+}
+caption {
+    caption-side:top; /* Mantém o caption acima da tabela */
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.2em; /* Ajuste de tamanho opcional */
+    font-weight: bold;
+    margin-bottom: 10px; /* Espaço entre o caption e a tabela */
+}

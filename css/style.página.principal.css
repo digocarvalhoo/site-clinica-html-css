@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&family=Open+Sans&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    height: 100%;
+}
+.wrapper {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    flex-grow: 1; /* Ocupa o restante do espaço disponível */
+}
+.menu {
+    width: 10%;
+    background: linear-gradient(to right, #86BE8E 0%, #9CDFA7 50%, #A0E4AB 100%);
+    padding: 10px 20px 0px;
+    display: flex;
+    flex-direction: column; /*Deixa os itens em coluna, um abaixco do outro*/
+    justify-content: space-between; /* Garante que o conteúdo do menu fique no topo e a logo no final */
+}
+.header {
+    height: 15%;
+    min-height: 50px;
+    background: linear-gradient(to right, #A0E4AB 0%, #A2E7AD 50%, #6B9771 100%);
+    display: flex; /*Ativa o Flex-Box*/
+}
+.content {
+    height: 70%;
+    background: linear-gradient(to right, #9AE0A9, #04877A);
+    min-height: 200px;
+    flex-grow: 1; /* Ocupa o restante do espaço disponível */
+}
+.footer {
+    height: 15%;
+    background-color: rgb(68, 119, 68);
+}
+.menu a {
+    color: #000;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: white;
+}
+.menu ul{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 15%;
+}
+.menu li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px; /* Cria o espaçamento entre os itens da lista */
+}
+.logo img{
+    max-width: 100px; /* Define um tamanho máximo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;  /* Arredonda os cantos da imagem */
+    margin-bottom: 20px; /* Afastando a imagem do fundo (chão) da página */
+}
+.button{ 
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 40px; /* Mantém um espaçamento mais equilibrado */
+    padding: 20px;
+    height: auto; /* Evita que o botão fique distorcido */
+    width: auto; /* Ocupa toda a largura disponível */
+}
+.button button{
+    color: white;
+    background: linear-gradient(to right, #86BE8E 0%, #9CDFA7 50%, #A0E4AB 100%);
+    border: none; /*remove o borda do botão*/
+    border-radius: 20px 10px 20px 10px; 
+    padding: 50px 70px; /*Altura e largura do button*/
+    font-size: 26px; /*Tamanho da fonte do text*/
+    cursor: pointer; /*Coloca o cursos de clicar*/
+}
+.papel_parede{
+    width: 100%;
+    height: 100%;
+}
